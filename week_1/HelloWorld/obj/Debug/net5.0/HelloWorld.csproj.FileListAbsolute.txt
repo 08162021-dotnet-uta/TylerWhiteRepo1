@@ -1,0 +1,16 @@
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld.deps.json
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld.runtimeconfig.json
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld.runtimeconfig.dev.json
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld.dll
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/ref/HelloWorld.dll
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/bin/Debug/net5.0/HelloWorld.pdb
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.csproj.AssemblyReference.cache
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.AssemblyInfoInputs.cache
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.AssemblyInfo.cs
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.dll
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/ref/HelloWorld.dll
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.pdb
+/home/tylerwhite/Revature/training_code/week_1/HelloWorld/obj/Debug/net5.0/HelloWorld.genruntimeconfig.cache

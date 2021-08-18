@@ -4,7 +4,6 @@ namespace HelloWorld
 {
   class Program
   {
-
     // Build a simple calculator using 5 methods: Add, Multiply, Subtract, Divide, Print
     static void Main(string[] args)
     {
@@ -13,35 +12,64 @@ namespace HelloWorld
 
     public static void calculator()
     {
-      int Input1;
-      int Input2;
-      int result = 0;
       string calcOperator = "+";
+      int input1 = 0;
+      int input2 = 0;
+      int result = 0;
 
       print("Enter your First Number for calculation.");
-      Input1 = Int32.Parse(Console.ReadLine());
+      input1 = validateIntInput(input1);
       print("Enter your Second Number for calculation.");
-      Input2 = Int32.Parse(Console.ReadLine());
+      input2 = validateIntInput(input2);
       print("Enter either '+' for Addition, '-' For Subtraction, '*' For Multiplication, or '/' For Division");
-      calcOperator = Console.ReadLine();
+      calcOperator = validateOperationInput(Console.ReadLine());
 
       switch (calcOperator)
       {
         case "+":
-          result = Add(Input1, Input2);
+          result = Add(input1, input2);
           break;
         case "-":
-          result = Subtract(Input1, Input2);
+          result = Subtract(input1, input2);
           break;
         case "*":
-          result = Multiplication(Input1, Input2);
+          result = Multiplication(input1, input2);
           break;
         case "/":
-          result = Division(Input1, Input2);
+          result = Division(input1, input2);
           break;
       }
       print("");
       print("Your Result is: " + result.ToString());
+    }
+
+    private static int validateIntInput(int Output)
+    {
+      bool validInput = false;
+      do
+      {
+        validInput = Int32.TryParse(Console.ReadLine(), out Output);
+        if (validInput == false) print("Invalid Input. Please Enter a number.");
+      }
+      while (validInput == false);
+      return Output;
+    }
+
+    private static string validateOperationInput(string Output)
+    {
+      bool validInput = false;
+      do
+      {
+        if (Output == "+" || Output == "-" || Output == "*" || Output == "/")
+        {
+          validInput = true;
+          break;
+        }
+        else print("Invalid Input. Please Enter an operator.");
+        Output = Console.ReadLine();
+      }
+      while (validInput == false);
+      return Output;
     }
 
     private static void print(string output)

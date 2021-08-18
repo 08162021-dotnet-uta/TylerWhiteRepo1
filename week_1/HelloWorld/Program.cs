@@ -23,24 +23,30 @@ namespace HelloWorld
       input2 = validateIntInput(input2);
       print("Enter either '+' for Addition, '-' For Subtraction, '*' For Multiplication, or '/' For Division");
       calcOperator = validateOperationInput(Console.ReadLine());
-
-      switch (calcOperator)
-      {
-        case "+":
-          result = Add(input1, input2);
-          break;
-        case "-":
-          result = Subtract(input1, input2);
-          break;
-        case "*":
-          result = Multiplication(input1, input2);
-          break;
-        case "/":
-          result = Division(input1, input2);
-          break;
-      }
+      result = calculate(input1, input2, calcOperator);
       print("");
       print("Your Result is: " + result.ToString());
+    }
+
+    private static int calculate(int num1, int num2, string mathOp)
+    {
+      int rValue = 0;
+      switch (mathOp)
+      {
+        case "+":
+          rValue = Add(num1, num2);
+          break;
+        case "-":
+          rValue = Subtract(num1, num2);
+          break;
+        case "*":
+          rValue = Multiplication(num1, num2);
+          break;
+        case "/":
+          rValue = Division(num1, num2);
+          break;
+      }
+      return rValue;
     }
 
     private static int validateIntInput(int Output)

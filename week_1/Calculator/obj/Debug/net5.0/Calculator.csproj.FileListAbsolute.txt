@@ -1,0 +1,16 @@
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.csproj.AssemblyReference.cache
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfoInputs.cache
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfo.cs
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.csproj.CoreCompileInputs.cache
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator.deps.json
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.json
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.dev.json
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator.dll
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/ref/Calculator.dll
+/home/tylerwhite/Revature/training_code/week_1/Calculator/bin/Debug/net5.0/Calculator.pdb
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.dll
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/ref/Calculator.dll
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.pdb
+/home/tylerwhite/Revature/training_code/week_1/Calculator/obj/Debug/net5.0/Calculator.genruntimeconfig.cache

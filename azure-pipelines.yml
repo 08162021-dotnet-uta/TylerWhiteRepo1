@@ -29,17 +29,17 @@ variables:
   buildConfiguration: 'Release'
 
 stages:
-  # - stage: Build
-  #   jobs:
-  #   - job: buildJOb
-  #     steps:
-      # - task: NuGetToolInstaller@1
+   - stage: Build
+     jobs:
+     - job: buildJOb
+       steps:
+       - task: NuGetToolInstaller@1
 
-      # - task: NuGetCommand@2
-      #   inputs:
-      #   #maybe not needed?
-      #     command: 'restore'
-      #     restoreSolution: '$(pathtosln)'
+       - task: NuGetCommand@2
+         inputs:
+         #maybe not needed?
+           command: 'restore'
+           restoreSolution: '$(pathtosln)'
   
 #  - stage: Sonarcloud
 #    jobs:

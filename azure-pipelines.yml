@@ -45,14 +45,14 @@ stages:
     jobs:
     - job: SonarCloud
       steps:
-      - task: SonarCloudPrepare@1
-        inputs:
-          SonarCloud: 'Sonarcloud-token-08162021batch'
-          organization: '08162021batch'
-          scannerMode: 'MSBuild'
-          projectKey: '08162021batch_08162021batchStoreDemo'
-          projectName: '08162021batchStoreDemo'
-      
+#      - task: SonarCloudPrepare@1
+#        inputs:
+#          SonarCloud: 'Sonarcloud-token-08162021batch'
+#          organization: '08162021batch'
+#          scannerMode: 'MSBuild'
+#          projectKey: '08162021batch_08162021batchStoreDemo'
+#          projectName: '08162021batchStoreDemo'
+#      
       - task: DotNetCoreCLI@2
         displayName: building
         inputs:

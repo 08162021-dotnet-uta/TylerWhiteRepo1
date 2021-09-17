@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <div id="content">
+    <p>Welcome,
+    <div class="welcomediv"></div>, to your store app.</p>
+    <p>Current Order:</p>
+    <p>Total Cost: </p>
+    <p id="price">0.00</p>
+    <ul id="currentOrder">
+
+    </ul>
+
+    <p>Please choose a store</p>
+
+    <ul id="listofstores" class="listofstores">
+    </ul>
+
+    <ui id="products">
+
+    </ui>
+    <ui id="orders">
+
+    </ui>
+
+    <button onClick="pastOrders()" value="pastOrders">View Past Orders</button>
+    <button onClick="checkOut()" value="CheckOut">Check Out</button>
+    <button onClick="logOut()" value="Logout">LogOut</button>
+  </div>
+  <script src="welcomeuser.js"></script>
+  <style href="welcomeuserStyle.css"></style>
+</body>
+
+</html>
